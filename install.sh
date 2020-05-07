@@ -14,4 +14,5 @@ cp kolla-ansible/ansible/inventory/* .
 yum install epel-release -y
 yum repolist
 yum install ansible -y
+yum update -y
 yum install nfs-utils -y
